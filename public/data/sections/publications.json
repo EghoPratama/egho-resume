@@ -1,0 +1,30 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleThread",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2020, "month": 4},
+                    "fallbackFaIcon": "fa-solid fa-book-journal-whills",
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Weighted inverse document frequency and vector space model for hadith search engine",
+                            "description": "This  study  aims  to  build  a  hadith  search  engine  from  reliable  source  by utilizing Information Retrieval techniques. The structured representation of the text that used is Bag of Word(1-term) with the Weighted Inverse Document Frequency  (WIDF)  method to  calculate  the  frequency  of  occurrence  of  each term  before  being  converted  in  vector  form  with  the  Vector  Space  Model (VSM). Based on the experiment results using 380 texts of hadith, the recall value of WIDF and VSM is 96%, while precision value is just around 35.46%. This is because the structured representation for text that used is bag of words (1-gram) that can not maintain the meaning of text well).",
+                            "institution": "Indonesian Journal of Electrical Engineering and Computer Science (IJEECS)"
+                        }
+                    },
+                    "links": [
+                        {"href": "https://ijeecs.iaescore.com/index.php/IJEECS/article/view/20974/13700", "stringKey": "view_more_info"}
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,84 +1,71 @@
 {
-    "name": "Roy Sheppard",
-    "profilePictureUrl": "images/pictures/avatar.png",
-
+    "name": "Egho Pratama",
+    "profilePictureUrl": "images/pictures/egho.jpeg",
     "locales": {
         "en": {
             "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "UX Designer"
+            "role": "Frontend Developer"
         },
-
-        "es": {
-            "credits": "Hecho por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer de UX"
-        },
-
-        "fr": {
-            "credits": "Conçu par <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer UX"
-        },
-
-        "zh": {
-            "credits": "设计：<strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "用户体验设计师"
+        "id": {
+            "credits": "Dirancang oleh <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Frontend Developer"
         }
     },
-
     "contactOptions": [
         {
             "id": "address",
-            "value": "123 Main Street, Cupertino, CA 01234",
-            "valueShort": "Cupertino – CA",
+            "value": "Waruga Jaya, Bandung Barat, Indonesia 40559",
+            "valueShort": "Waruga Jaya – Bandung Barat",
             "faIcon": "fa-regular fa-map",
             "href": null
         },
 
         {
             "id": "email",
-            "value": "roy.sheppard@genius.com",
-            "valueShort": "roy.sheppard@genius.com",
+            "value": "egho.dpratama@gmail.com",
+            "valueShort": "egho.dpratama@gmail.com",
             "faIcon": "fa-regular fa-envelope",
-            "href": "mailto:roy.sheppard@genius.com"
-        },
-
-        {
-            "id": "facebook",
-            "value": "Roy Sheppard",
-            "valueShort": "Roy S.",
-            "faIcon": "fa-brands fa-facebook",
-            "href": "https://facebook.com"
+            "href": "mailto:egho.dpratama@gmail.com"
         },
 
         {
             "id": "github",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
+            "value": "@EghoPratama",
+            "valueShort": "@EghoPratama",
             "faIcon": "fa-brands fa-github",
-            "href": "https://github.com"
-        },
-
-        {
-            "id": "instagram",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
-            "faIcon": "fa-brands fa-instagram",
-            "href": "https://instagram.com"
+            "href": "https://github.com/EghoPratama"
         },
 
         {
             "id": "linkedin",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
+            "value": "Egho Pratama",
+            "valueShort": "Egho Pratama",
             "faIcon": "fa-brands fa-linkedin",
-            "href": "https://linkedin.com"
+            "href": "https://www.linkedin.com/in/septya-egho-pratama-4aa96a116"
         },
 
         {
             "id": "phone",
-            "value": "+1 (123) 456-7890",
-            "valueShort": "(123) 456-7890",
+            "value": "+62 85795294098",
+            "valueShort": "085795294098",
             "faIcon": "fa-brands fa-whatsapp",
-            "href": "tel:1234567890"
+            "href": "tel:085795294098"
+        },
+
+        {
+            "id": "podcast",
+            "value": "Podcast",
+            "valueShort": "Podcast",
+            "faIcon": "fa-brands fa-spotify",
+            "href": "https://open.spotify.com/show/6pY7FdntGzS6RxobHgdxAW"
+        },
+
+        {
+            "id": "medium",
+            "value": "Medium",
+            "valueShort": "Medium",
+            "faIcon": "fa-brands fa-medium",
+            "href": "https://egho-dpratama.medium.com"
         }
     ]
 }

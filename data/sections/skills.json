@@ -1,0 +1,228 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-solid fa-mobile-screen-button",
+                    "fallbackFaIconColor": "#333",
+                    "locales": {
+                        "en": {
+                            "title": "Responsive Apps",
+                            "description": "Crafting layouts that adapt beautifully across devices, ensuring smooth user experiences from mobile to desktop using, CSS Grid, and Flexbox."
+                        },
+                        "id": {
+                            "title": "Aplikasi Responsif",
+                            "description": "Membuat tata letak yang beradaptasi dengan indah di berbagai perangkat, memastikan pengalaman pengguna yang lancar dari perangkat seluler hingga desktop menggunakan, CSS Grid, dan Flexbox."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-cubes",
+                    "fallbackFaIconColor": "oklch(44.6% 0.043 257.281)",
+                    "locales": {
+                        "en": {
+                            "title": "Component-Based Architecture",
+                            "description": "Building scalable apps with reusable, modular components — making development faster, cleaner, and easier to maintain."
+                        },
+                        "id": {
+                            "title": "Arsitektur Berbasis Komponen",
+                            "description": "Membangun aplikasi yang dapat diskalakan dengan komponen modular yang dapat digunakan kembali — membuat pengembangan lebih cepat, lebih bersih, dan lebih mudah dipelihara."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-plug",
+                    "fallbackFaIconColor": "oklch(57.7% 0.245 27.325)",
+                    "locales": {
+                        "en": {
+                            "title": "API Integration & Data Handling",
+                            "description": "Connecting apps with RESTful APIs and handling asynchronous data with Axios or Fetch — always keeping UX smooth and error-tolerant."
+                        },
+                        "id": {
+                            "title": "Integrasi API & Penanganan Data",
+                            "description": "Menghubungkan aplikasi dengan RESTful API dan menangani data asinkron dengan Axios atau Fetch — selalu menjaga UX tetap lancar dan toleran terhadap kesalahan."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Vue Stack" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-brands fa-vuejs",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "Vue 3",
+                            "description": "Building modern, performant apps using the Composition API and reactive data binding."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-diagram-project",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "Vuex & Pinia",
+                            "description": "Managing complex state in large apps with centralized stores and modular patterns."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-screwdriver-wrench",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "Vue CLI & Vite",
+                            "description": "Efficient app scaffolding, local development, and builds using CLI and Vite."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "fallbackFaIcon": "fa-solid fa-globe",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "Nuxt",
+                            "description": "Building performant, SEO-friendly Vue apps with SSR and static generation."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "fallbackFaIcon": "fa-solid fa-plug",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "API Integration",
+                            "description": "Fetching and managing remote data using Axios and Fetch, with error handling and loading states."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "fallbackFaIcon": "fa-solid fa-route",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "Vue Router",
+                            "description": "Implementing client-side routing, nested routes, and dynamic route guards with Vue Router."
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "fallbackFaIcon": "fa-brands fa-sass",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "SCSS & Preprocessing",
+                            "description": "Using SCSS to write clean, modular, and maintainable stylesheets."
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "fallbackFaIcon": "fa-solid fa-microscope",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "Vitest",
+                            "description": "Using Vitest to test the component."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Other Framework" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-brands fa-react",
+                    "fallbackFaIconColor": "oklch(80.9% 0.105 251.813)",
+                    "locales": {
+                        "en": {
+                            "title": "ReactJS",
+                            "description": "Familiar with component-based architecture and hooks in React."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-rocket",
+                    "fallbackFaIconColor": "oklch(55.4% 0.046 257.417)",
+                    "locales": {
+                        "en": {
+                            "title": "Cypress",
+                            "description": "Previously using cypress to end-to-end testing."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-code-compare",
+                    "fallbackFaIconColor": "#333",
+                    "locales": {
+                        "en": {
+                            "title": "NextJS",
+                            "description": "Familiar with component-based architecture and hooks in Next."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "fallbackFaIcon": "fa-brands fa-laravel",
+                    "fallbackFaIconColor": "oklch(58.6% 0.253 17.585)",
+                    "locales": {
+                        "en": {
+                            "title": "Laravel",
+                            "description": "Previously used Laravel to create Rest API end point."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

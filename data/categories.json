@@ -1,0 +1,38 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {"nav_label": "Home"},
+                "id": {"nav_label": "Beranda"}
+            }
+        },
+
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": { "nav_label": "Background" },
+                "id": { "nav_label": "Latar Belakang" }
+            }
+        },
+
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": { "nav_label": "Showcase" },
+                "id": { "nav_label": "Showcase" }
+            }
+        },
+
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": {"nav_label": "More"}
+            }
+        }
+    ]
+}

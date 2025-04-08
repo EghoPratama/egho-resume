@@ -1,0 +1,139 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_websites": "Websites"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/cerebrum_app.webp",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "Cerebrum",
+                            "description": "<b>Cerebrum</b> is e-learning app, helping student for preparation entrance exam to university. Student can simulation exam through the apps and track how far students have prepared",
+                            "tags": ["app", "e-learning", "vue", "quasar"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://app.cerebrum.id", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/jadi_asn.webp",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "JadiASN",
+                            "description": "<b>JadiASN</b> is e-learning app, helping civil servant candidate for preparation entrance exam. Civil servant candidate can simulation exam through the apps and track how far have prepared",
+                            "tags": ["app", "e-learning", "vue", "quasar"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://app.jadiasn.id", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/jadi_polisi.webp",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "JadiPolisi",
+                            "description": "<b>JadiPolri</b> is e-learning app, helping police candidate for preparation entrance exam. Police candidate can simulation exam through the apps and track how far have prepared",
+                            "tags": ["app", "e-learning", "vue", "quasar"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://app.jadipolisi.id", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/jadi_prajurit.webp",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "JadiPrajurit",
+                            "description": "<b>JadiPrajurit</b> is e-learning app, helping soldier candidate for preparation entrance exam. Soldier candidate can simulation exam through the apps and track how far have prepared",
+                            "tags": ["app", "e-learning", "vue", "quasar"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://app.jadiprajurit.id", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "img": "images/pictures/indie-pos.svg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "IndieOmniPos",
+                            "description": "<b>IndieOmniPos</b> is point of sales app, allow you to synchronise everything in every channel. Helping you optimise all inventory and significantly increasing your sales.",
+                            "tags": ["app", "e-commerce", "omnichannel", "vue", "nuxt"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://seller.indieomnipos.com", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "img": "images/pictures/ocademy.webp",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "OCademy",
+                            "description": "<b>OCademy</b> is a complete marketing solution platform for online business people for smoother & more integrated business. There is online education and how to set up ads to increase sales for business people.",
+                            "tags": ["app", "ads", "digital marketing", "vue 3"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://app.ocademy.id", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 7,
+                    "img": "images/pictures/ochat.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "OChat",
+                            "description": "OChat is apps for Create and maintain order via Chat bot AI. Collaboration with Cekat AI.",
+                            "tags": ["app", "chat", "typescript", "vue 3"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://ochat-app.orderonline.id", "stringKey": "view_on_web"}
+                    ]
+                }
+            ]
+        }
+    ]
+}

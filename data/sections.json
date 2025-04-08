@@ -1,0 +1,139 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/sections/about.json",
+            "faIcon": "fa-solid fa-address-card",
+            "type": "centered",
+            "locales": {
+                "en": {
+                    "title": "Hello, I'm *Egho Pratama*",
+                    "title_short": "Welcome!",
+                    "description": null,
+                    "nav_label": "About"
+                },
+                "id": {
+                    "title": "Halo, saya *Egho Pratama*",
+                    "title_short": "Selamat Datang!",
+                    "description": null,
+                    "nav_label": "Tentang"
+                }
+            }
+        },
+
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/sections/education.json",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Educational* Background",
+                    "title_short": null,
+                    "description": "A glimpse into my academic trajectory and accomplishments.",
+                    "nav_label": "Education"
+                },
+                "id": {
+                    "title": "Latar Belakang *Pendidikan*",
+                    "title_short": null,
+                    "description": "Sekilas tentang lintasan dan prestasi akademis saya.",
+                    "nav_label": "Pendidikan"
+                }
+            }
+        },
+
+        {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/skills.json",
+            "faIcon": "fa-solid fa-tools",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Skill* Set",
+                    "title_short": null,
+                    "description": "Exploring the diverse range of skills I've acquired and developed:",
+                    "nav_label": "Skills"
+                },
+                "id": {
+                    "title": "*Skill* Set",
+                    "title_short": null,
+                    "description": "Menjelajahi berbagai keterampilan yang telah saya peroleh dan kembangkan:",
+                    "nav_label": "Skills"
+                }
+            }
+        },
+
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Professional* Experience",
+                    "title_short": null,
+                    "description": "A look into my work experience and career journey.",
+                    "nav_label": "Experience"
+                },
+                "id": {
+                    "title": "Pengalaman *Profesional*",
+                    "title_short": null,
+                    "description": "Sekilas tentang pengalaman kerja dan perjalanan karier saya.",
+                    "nav_label": "Pengalaman"
+                }
+            }
+        },
+
+        {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "My *Portfolio*",
+                    "title_short": null,
+                    "description": "Explore a selection of my recent projects and creative works.",
+                    "nav_label": "Portfolio"
+                }
+            }
+        },
+
+        {
+            "id": "publications",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/publications.json",
+            "faIcon": "fa-solid fa-scroll",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "My *Publications*",
+                    "title_short": null,
+                    "description": "Browse through articles, research, and other pieces I've written or contributed to.",
+                    "nav_label": "Publications"
+                }
+            }
+        },
+
+        {
+            "id": "contact",
+            "categoryId": "more",
+            "jsonPath": "/sections/contact.json",
+            "faIcon": "fa-solid fa-pen-to-square",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Contact* Me",
+                    "title_short": null,
+                    "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
+                    "nav_label": "Contact"
+                }
+            }
+        }
+    ]
+}

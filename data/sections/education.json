@@ -1,0 +1,45 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2015, "month": 8},
+                    "dateEnd": {"year": 2019, "month": 8},
+                    "img": "images/pictures/uin.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor’s Degree in Informatics Engineering",
+                            "description": "Studied software architecture, object-oriented programming, databases, calculus, algebra, networking and front-end development.",
+                            "list": null,
+                            "province": "",
+                            "country": "Indonesia",
+                            "institution": "State Islamic University of Sunan Gunung Djati Bandung"
+                        },
+                        "id": {
+                            "title": "Sarjana Teknik",
+                            "description": "Mempelajari arsitektur perangkat lunak, pemrograman berorientasi objek, basis data, dan pengembangan front-end.",
+                            "list": {
+                                "title": "Topik Penelitian:",
+                                "items": [
+                                    "Penerapan metode weighted inverse document frequency dan vector space model untuk pencarian hadits"
+                                ]
+                            },
+                            "province": "",
+                            "country": "Indonesia",
+                            "institution": "Universitas Islam Negeri Sunan Gunung Djati Bandung"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

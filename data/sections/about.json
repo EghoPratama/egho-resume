@@ -1,0 +1,38 @@
+
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleProfile",
+            "settings": {
+                "contact_list_ids": ["address", "email", "phone"],
+                "contact_circles_ids": ["github", "linkedin", "podcast", "medium"]
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "locales": {
+                        "en": {
+                            "description": "I've been a Frontend developer for 5 years, building dynamic and responsive web applications that feel fast, smooth, and delightful to use. My passion lies in writing clean, modular code and creating frontend experiences that not only look polished but work seamlessly across devices."
+                        },
+                        "id": {
+                            "description": "Saya telah menjadi pengembang Frontend selama 5 tahun, membangun aplikasi web yang dinamis dan responsif yang terasa cepat, lancar, dan menyenangkan untuk digunakan. Semangat saya terletak pada penulisan kode yang bersih dan modular serta menciptakan pengalaman frontend yang tidak hanya terlihat bagus tetapi juga berfungsi dengan lancar di berbagai perangkat."
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "locales": {
+                        "en": {
+                            "description": "I believe that great development goes hand in hand with great user experience—it's about making technology feel effortless and intuitive. Let’s team up to bring your ideas to life and create something truly impactful!"
+                        },
+                        "id": {
+                            "description": "Saya percaya bahwa pengembangan yang hebat berjalan seiring dengan pengalaman pengguna yang hebat—ini tentang membuat teknologi terasa mudah dan intuitif. Mari bekerja sama untuk mewujudkan ide-ide Anda dan menciptakan sesuatu yang benar-benar berdampak!"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

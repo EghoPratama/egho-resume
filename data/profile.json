@@ -1,0 +1,71 @@
+{
+    "name": "Egho Pratama",
+    "profilePictureUrl": "images/pictures/egho.jpeg",
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Frontend Developer"
+        },
+        "id": {
+            "credits": "Dirancang oleh <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Frontend Developer"
+        }
+    },
+    "contactOptions": [
+        {
+            "id": "address",
+            "value": "Waruga Jaya, Bandung Barat, Indonesia 40559",
+            "valueShort": "Waruga Jaya – Bandung Barat",
+            "faIcon": "fa-regular fa-map",
+            "href": null
+        },
+
+        {
+            "id": "email",
+            "value": "egho.dpratama@gmail.com",
+            "valueShort": "egho.dpratama@gmail.com",
+            "faIcon": "fa-regular fa-envelope",
+            "href": "mailto:egho.dpratama@gmail.com"
+        },
+
+        {
+            "id": "github",
+            "value": "@EghoPratama",
+            "valueShort": "@EghoPratama",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/EghoPratama"
+        },
+
+        {
+            "id": "linkedin",
+            "value": "Egho Pratama",
+            "valueShort": "Egho Pratama",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://www.linkedin.com/in/septya-egho-pratama-4aa96a116"
+        },
+
+        {
+            "id": "phone",
+            "value": "+62 85795294098",
+            "valueShort": "085795294098",
+            "faIcon": "fa-brands fa-whatsapp",
+            "href": "tel:085795294098"
+        },
+
+        {
+            "id": "podcast",
+            "value": "Podcast",
+            "valueShort": "Podcast",
+            "faIcon": "fa-brands fa-spotify",
+            "href": "https://open.spotify.com/show/6pY7FdntGzS6RxobHgdxAW"
+        },
+
+        {
+            "id": "medium",
+            "value": "Medium",
+            "valueShort": "Medium",
+            "faIcon": "fa-brands fa-medium",
+            "href": "https://egho-dpratama.medium.com"
+        }
+    ]
+}

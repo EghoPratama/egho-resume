@@ -1,0 +1,101 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2019, "month": 9},
+                    "dateEnd": {"year": 2022, "month": 1},
+                    "img": "images/pictures/cerebrum.jpeg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer",
+                            "description": "That has been done :",
+                            "list": {
+                                "title": null,
+                                "items": [
+                                    "Develop Web App base on UI / UX Design",
+                                    "Create base project for reuse development in the future",
+                                    "Implemented Quasar CLI to our Web Apps which reduce bug",
+                                    "Manage task from project manager to Frant-End team",
+                                    "Manage developing product before ready to tested by Quality Assurance"
+                                ]
+                            },
+                            "province": "Bandung",
+                            "country": "Indonesia",
+                            "institution": "PT Cerebrum Edukanesia Nusantara",
+                            "tags": ["vue2", "frontend", "quasar"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2022, "month": 2},
+                    "dateEnd": {"year": 2022, "month": 6},
+                    "img": "images/pictures/indie.jpeg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer",
+                            "description": "That has been done :",
+                            "list": {
+                                "title": null,
+                                "items": [
+                                    "Develop seller order, product integration, omni package to increase productivity of sales in Seller System",
+                                    "Omnichannel activation",
+                                    "Implement Nuxt JS to our Web Apps",
+                                    "Co-Operate with Back End Developer to develop new feature and reporting the result to project manager"
+                                ]
+                            },
+                            "province": "Bandung",
+                            "country": "Indonesia",
+                            "institution": "PT Indie Marketindo Ceria",
+                            "tags": ["vue2", "frontend", "nuxt"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2022, "month": 6},
+                    "dateEnd": {"year": 2025, "month": 3},
+                    "img": "images/pictures/ordivo.jpeg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer",
+                            "description": "That has been done :",
+                            "list": {
+                                "title": null,
+                                "items": [
+                                    "Develop course admin, course review, course discusion to increase quality of product video and course seiling in OCademy",
+                                    "Develop whitelist ads form request and dashboard for monitoring data whitelist ads",
+                                    "Create Open-Api endpoint to track submission by receipt number",
+                                    "Create Open-Api endpoint to edit submission",
+                                    "Create Webhook for login to facebook",
+                                    "Create n8n mechanism for count meta analytics whatsapp",
+                                    "Co-Operate with Backend Developer to develop new features and reporting the result to project manager",
+                                    "Co-Operate with Cekat Al to develop Ochat App, the apps for Create and maintain order via Chat bot AI",
+                                    "Co-Operate with Satuinbox team to develop Satuinbox internal apps for maintain logistic ticketing"
+                                ]
+                            },
+                            "province": "Bandung",
+                            "country": "Indonesia",
+                            "institution": "PT Ordivo Teknologi Indonesia",
+                            "tags": ["vue2", "vue 3", "laravel", "frontend", "nextjs"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

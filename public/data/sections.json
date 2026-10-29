@@ -54,13 +54,13 @@
                 "en": {
                     "title": "*Skill* Set",
                     "title_short": null,
-                    "description": "Exploring the diverse range of skills I've acquired and developed:",
+                    "description": "A collection of technical skills and tools I've used to build, maintain, and improve web applications, with a primary focus on frontend development:",
                     "nav_label": "Skills"
                 },
                 "id": {
                     "title": "*Skill* Set",
                     "title_short": null,
-                    "description": "Menjelajahi berbagai keterampilan yang telah saya peroleh dan kembangkan:",
+                    "description": "Kumpulan keterampilan teknis dan perangkat yang telah saya gunakan untuk membangun, memelihara, serta menyempurnakan aplikasi web, dengan fokus utama pada pengembangan frontend:",
                     "nav_label": "Skills"
                 }
             }

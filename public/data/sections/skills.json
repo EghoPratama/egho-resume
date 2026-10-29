@@ -3,6 +3,9 @@
         {
             "id": 1,
             "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Core Frontend Skills" }
+            },
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
@@ -17,12 +20,12 @@
                     "fallbackFaIconColor": "#333",
                     "locales": {
                         "en": {
-                            "title": "Responsive Apps",
-                            "description": "Crafting layouts that adapt beautifully across devices, ensuring smooth user experiences from mobile to desktop using, CSS Grid, and Flexbox."
+                            "title": "Responsive Web Development",
+                            "description": "Building responsive layouts that adapt to different screen sizes using CSS Grid, Flexbox, and modern CSS techniques."
                         },
                         "id": {
-                            "title": "Aplikasi Responsif",
-                            "description": "Membuat tata letak yang beradaptasi dengan indah di berbagai perangkat, memastikan pengalaman pengguna yang lancar dari perangkat seluler hingga desktop menggunakan, CSS Grid, dan Flexbox."
+                            "title": "Pengembangan Web Responsif",
+                            "description": "Membangun tata letak responsif yang beradaptasi dengan berbagai ukuran layar menggunakan CSS Grid, Flexbox, dan teknik-teknik CSS modern."
                         }
                     }
                 },
@@ -33,11 +36,11 @@
                     "locales": {
                         "en": {
                             "title": "Component-Based Architecture",
-                            "description": "Building scalable apps with reusable, modular components — making development faster, cleaner, and easier to maintain."
+                            "description": "Developing reusable, modular UI components that improve code consistency, reduce duplication, and simplify maintenance."
                         },
                         "id": {
                             "title": "Arsitektur Berbasis Komponen",
-                            "description": "Membangun aplikasi yang dapat diskalakan dengan komponen modular yang dapat digunakan kembali — membuat pengembangan lebih cepat, lebih bersih, dan lebih mudah dipelihara."
+                            "description": "Mengembangkan komponen UI modular yang dapat digunakan kembali, guna meningkatkan konsistensi kode, mengurangi duplikasi, serta menyederhanakan pemeliharaan."
                         }
                     }
                 },
@@ -48,11 +51,41 @@
                     "locales": {
                         "en": {
                             "title": "API Integration & Data Handling",
-                            "description": "Connecting apps with RESTful APIs and handling asynchronous data with Axios or Fetch — always keeping UX smooth and error-tolerant."
+                            "description": "Integrating RESTful APIs using Axios and Fetch, handling asynchronous data, loading states, and errors to provide reliable user experiences."
                         },
                         "id": {
                             "title": "Integrasi API & Penanganan Data",
-                            "description": "Menghubungkan aplikasi dengan RESTful API dan menangani data asinkron dengan Axios atau Fetch — selalu menjaga UX tetap lancar dan toleran terhadap kesalahan."
+                            "description": "Mengintegrasikan RESTful API menggunakan Axios dan Fetch, serta menangani data asinkron, status pemuatan (loading states), dan kesalahan untuk menghadirkan pengalaman pengguna yang andal."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "fallbackFaIcon": "fa-solid fa-gear",
+                    "fallbackFaIconColor": "oklch(57.7% 0.245 27.325)",
+                    "locales": {
+                        "en": {
+                            "title": "State Management",
+                            "description": "Managing application state using Vuex, Pinia, and React Hooks, depending on the framework and application requirements."
+                        },
+                        "id": {
+                            "title": "Manajemen State",
+                            "description": "Mengelola state aplikasi menggunakan Vuex, Pinia, dan React Hooks, bergantung pada framework serta kebutuhan aplikasi."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "fallbackFaIcon": "fa-solid fa-vial-circle-check",
+                    "fallbackFaIconColor": "oklch(44.6% 0.043 257.281)",
+                    "locales": {
+                        "en": {
+                            "title": "Testing",
+                            "description": "Writing and running component and unit tests with Vitest, with additional experience in end-to-end testing using Cypress."
+                        },
+                        "id": {
+                            "title": "Pengujian",
+                            "description": "Menulis dan menjalankan pengujian komponen serta pengujian unit menggunakan Vitest, dengan pengalaman tambahan dalam pengujian menyeluruh (end-to-end testing) menggunakan Cypress."
                         }
                     }
                 }
@@ -63,7 +96,7 @@
             "id": 2,
             "component": "ArticleSkills",
             "locales": {
-                "en": { "title": "Vue Stack" }
+                "en": { "title": "Vue Ecosystem" }
             },
             "settings": {
                 "order_items_by": "id",
@@ -80,7 +113,7 @@
                     "locales": {
                         "en": {
                             "title": "Vue 3",
-                            "description": "Building modern, performant apps using the Composition API and reactive data binding."
+                            "description": "Building interactive web applications using the Composition API, reactive state, and reusable components."
                         }
                     }
                 },
@@ -91,7 +124,7 @@
                     "locales": {
                         "en": {
                             "title": "Vuex & Pinia",
-                            "description": "Managing complex state in large apps with centralized stores and modular patterns."
+                            "description": "Managing shared application state through centralized stores and modular state management patterns."
                         }
                     }
                 },
@@ -102,7 +135,7 @@
                     "locales": {
                         "en": {
                             "title": "Vue CLI & Vite",
-                            "description": "Efficient app scaffolding, local development, and builds using CLI and Vite."
+                            "description": "Configuring development environments and build workflows using Vue CLI and Vite."
                         }
                     }
                 },
@@ -113,51 +146,29 @@
                     "locales": {
                         "en": {
                             "title": "Nuxt",
-                            "description": "Building performant, SEO-friendly Vue apps with SSR and static generation."
+                            "description": "Developing Vue-based applications with server-side rendering (SSR) and static site generation (SSG)."
                         }
                     }
                 },
                 {
                     "id": 5,
-                    "fallbackFaIcon": "fa-solid fa-plug",
-                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
-                    "locales": {
-                        "en": {
-                            "title": "API Integration",
-                            "description": "Fetching and managing remote data using Axios and Fetch, with error handling and loading states."
-                        }
-                    }
-                },
-                {
-                    "id": 6,
                     "fallbackFaIcon": "fa-solid fa-route",
                     "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
                     "locales": {
                         "en": {
                             "title": "Vue Router",
-                            "description": "Implementing client-side routing, nested routes, and dynamic route guards with Vue Router."
+                            "description": "Implementing client-side routing, nested routes, dynamic routes, and navigation guards."
                         }
                     }
                 },
                 {
-                    "id": 7,
+                    "id": 6,
                     "fallbackFaIcon": "fa-brands fa-sass",
                     "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
                     "locales": {
                         "en": {
                             "title": "SCSS & Preprocessing",
-                            "description": "Using SCSS to write clean, modular, and maintainable stylesheets."
-                        }
-                    }
-                },
-                {
-                    "id": 8,
-                    "fallbackFaIcon": "fa-solid fa-microscope",
-                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
-                    "locales": {
-                        "en": {
-                            "title": "Vitest",
-                            "description": "Using Vitest to test the component."
+                            "description": "Writing modular, maintainable stylesheets using SCSS and CSS preprocessing."
                         }
                     }
                 }
@@ -168,7 +179,7 @@
             "id": 3,
             "component": "ArticleSkills",
             "locales": {
-                "en": { "title": "Other Framework" }
+                "en": { "title": "Other Technologies" }
             },
             "settings": {
                 "order_items_by": "id",
@@ -184,30 +195,30 @@
                     "fallbackFaIconColor": "oklch(80.9% 0.105 251.813)",
                     "locales": {
                         "en": {
-                            "title": "ReactJS",
-                            "description": "Familiar with component-based architecture and hooks in React."
+                            "title": "React & Next.js",
+                            "description": "Building component-based interfaces using React, hooks, and Next.js application patterns."
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "fallbackFaIcon": "fa-solid fa-rocket",
+                    "fallbackFaIcon": "fa-solid fa-file-code",
                     "fallbackFaIconColor": "oklch(55.4% 0.046 257.417)",
                     "locales": {
                         "en": {
-                            "title": "Cypress",
-                            "description": "Previously using cypress to end-to-end testing."
+                            "title": "Typescript",
+                            "description": "Writing type-safe frontend code to improve maintainability and reduce common development errors."
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "fallbackFaIcon": "fa-solid fa-code-compare",
+                    "fallbackFaIcon": "fa-solid fa-file-code",
                     "fallbackFaIconColor": "#333",
                     "locales": {
                         "en": {
-                            "title": "NextJS",
-                            "description": "Familiar with component-based architecture and hooks in Next."
+                            "title": "Tailwind CSS",
+                            "description": "Building responsive interfaces using utility-first CSS and reusable styling patterns."
                         }
                     }
                 },
@@ -218,7 +229,7 @@
                     "locales": {
                         "en": {
                             "title": "Laravel",
-                            "description": "Previously used Laravel to create Rest API end point."
+                            "description": "Previous experience developing REST API endpoints for application integration."
                         }
                     }
                 }

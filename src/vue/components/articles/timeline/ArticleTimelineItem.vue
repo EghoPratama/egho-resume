@@ -15,7 +15,7 @@
                                     :province="localize(item.locales, 'province', true)"
                                     :country="localize(item.locales, 'country', true)"
                                     :institution="localize(item.locales, 'institution')"
-                                    :description="localize(item.locales, 'description')"
+                                    :description="localize(item.locales, 'description', true)"
                                     :list="localize(item.locales, 'list', true)"
                                     :tags="localize(props.item.locales, 'tags')"/>
     </li>

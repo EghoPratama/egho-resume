@@ -16,7 +16,7 @@
         </div>
 
         <div class="timeline-item-content-body">
-            <p class="text-4 text-default description m-0"
+            <p v-if="description" class="text-4 text-default description m-0"
                v-html="description"/>
 
             <p v-if="list && list.title"

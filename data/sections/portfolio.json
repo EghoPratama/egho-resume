@@ -24,7 +24,7 @@
                         "en": {
                             "title": "Cerebrum",
                             "description": "<b>Cerebrum</b> is e-learning app, helping student for preparation entrance exam to university. Student can simulation exam through the apps and track how far students have prepared",
-                            "tags": ["app", "e-learning", "vue", "quasar"]
+                            "tags": ["E-Learning", "EdTech", "Exam Preparation", "Web Application"]
                         }
                     },
                     "links": [
@@ -40,8 +40,8 @@
                     "locales": {
                         "en": {
                             "title": "JadiASN",
-                            "description": "<b>JadiASN</b> is e-learning app, helping civil servant candidate for preparation entrance exam. Civil servant candidate can simulation exam through the apps and track how far have prepared",
-                            "tags": ["app", "e-learning", "vue", "quasar"]
+                            "description": "<b>JadiASN</b> is an e-learning platform designed to help candidates prepare for Indonesian civil servant recruitment exams. It provides exam simulations that allow candidates to practice answering questions, assess their readiness, and track their preparation progress.",
+                            "tags": ["EdTech", "E-Learning", "Exam Preparation", "Web Application"]
                         }
                     },
                     "links": [
@@ -56,9 +56,9 @@
                     "category": "websites",
                     "locales": {
                         "en": {
-                            "title": "JadiPolisi",
-                            "description": "<b>JadiPolri</b> is e-learning app, helping police candidate for preparation entrance exam. Police candidate can simulation exam through the apps and track how far have prepared",
-                            "tags": ["app", "e-learning", "vue", "quasar"]
+                            "title": "JadiPolri",
+                            "description": "<b>JadiPolri</b> is an e-learning platform designed to help aspiring police officers prepare for police recruitment exams. Through online exam simulations, candidates can practice answering questions, evaluate their performance, and monitor their preparation progress.",
+                            "tags": ["EdTech", "E-Learning", "Exam Preparation", "Public Service Recruitment"]
                         }
                     },
                     "links": [
@@ -74,8 +74,8 @@
                     "locales": {
                         "en": {
                             "title": "JadiPrajurit",
-                            "description": "<b>JadiPrajurit</b> is e-learning app, helping soldier candidate for preparation entrance exam. Soldier candidate can simulation exam through the apps and track how far have prepared",
-                            "tags": ["app", "e-learning", "vue", "quasar"]
+                            "description": "<b>JadiPrajurit</b> is an e-learning platform designed to help aspiring military personnel prepare for military recruitment exams. The platform offers exam simulations that help candidates practice, assess their readiness, and track their preparation progress.",
+                            "tags": ["EdTech", "E-Learning", "Exam Preparation", "Military Recruitment"]
                         }
                     },
                     "links": [
@@ -91,8 +91,8 @@
                     "locales": {
                         "en": {
                             "title": "IndieOmniPos",
-                            "description": "<b>IndieOmniPos</b> is point of sales app, allow you to synchronise everything in every channel. Helping you optimise all inventory and significantly increasing your sales.",
-                            "tags": ["app", "e-commerce", "omnichannel", "vue", "nuxt"]
+                            "description": "<b>IndieOmniPos</b> is an omnichannel point-of-sale platform designed to help businesses manage sales and inventory across multiple sales channels. By bringing sales operations and inventory management together, the platform helps streamline workflows and improve business efficiency.",
+                            "tags": ["Point of Sale", "Omnichannel", "Inventory Management", "E-Commerce"]
                         }
                     },
                     "links": [
@@ -108,8 +108,8 @@
                     "locales": {
                         "en": {
                             "title": "OCademy",
-                            "description": "<b>OCademy</b> is a complete marketing solution platform for online business people for smoother & more integrated business. There is online education and how to set up ads to increase sales for business people.",
-                            "tags": ["app", "ads", "digital marketing", "vue 3"]
+                            "description": "<b>OCademy</b> is an integrated platform that combines online learning and digital marketing tools to support online businesses. It provides educational content and advertising-related features to help business owners develop their marketing skills and manage activities aimed at growing their sales.",
+                            "tags": ["EdTech", "Online Learning", "Digital Marketing", "Business Tools"]
                         }
                     },
                     "links": [
@@ -125,12 +125,46 @@
                     "locales": {
                         "en": {
                             "title": "OChat",
-                            "description": "OChat is apps for Create and maintain order via Chat bot AI. Collaboration with Cekat AI.",
-                            "tags": ["app", "chat", "typescript", "vue 3"]
+                            "description": "OChat is an AI-powered chatbot application developed in collaboration with Cekat AI. It enables businesses to create and manage orders through conversational interactions, helping streamline order processing and simplify day-to-day operations.",
+                            "tags": ["AI", "Chatbot", "Order Management", "Business Automation"]
                         }
                     },
                     "links": [
                         {"faIcon": "fa-solid fa-globe", "href": "https://ochat-app.orderonline.id", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 8,
+                    "img": "images/pictures/satuinbox.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "Satuinbox",
+                            "description": "Satuinbox is an omnichannel customer service platform that brings customer conversations from multiple channels, including WhatsApp and Instagram, into a centralized workspace. It helps customer service teams manage conversations, organize support tickets, and streamline customer interactions.",
+                            "tags": ["Omnichannel", "Customer Service", "Ticketing System", "Web Application"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://v2.satuinbox.com", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 9,
+                    "img": "images/pictures/genesis.svg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "Genesis Apps - Lion Parcel",
+                            "description": "Genesis Apps is a logistics application used in Lion Parcel's shipment booking workflow. It supports the process of creating shipment bookings through a multi-step flow, with forms and business rules that help users complete shipping transactions.",
+                            "tags": ["Logistics", "Shipment Booking", "Frontend Engineering", "Web Application"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://genesis.lionparcel.com", "stringKey": "view_on_web"}
                     ]
                 }
             ]

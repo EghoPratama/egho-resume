@@ -18,15 +18,14 @@
                     "locales": {
                         "en": {
                             "title": "Frontend Developer",
-                            "description": "That has been done :",
                             "list": {
                                 "title": null,
                                 "items": [
-                                    "Develop Web App base on UI / UX Design",
-                                    "Create base project for reuse development in the future",
-                                    "Implemented Quasar CLI to our Web Apps which reduce bug",
-                                    "Manage task from project manager to Frant-End team",
-                                    "Manage developing product before ready to tested by Quality Assurance"
+                                    "Developed web application interfaces based on UI/UX designs.",
+                                    "Established a reusable project foundation to streamline development for future features and applications.",
+                                    "Adopted Quasar CLI in the web application development workflow to improve consistency and reduce implementation issues.",
+                                    "Coordinated frontend development tasks based on project manager requirements.",
+                                    "Managed frontend development activities and prepared features for quality assurance (QA) testing."
                                 ]
                             },
                             "province": "Bandung",
@@ -46,14 +45,13 @@
                     "locales": {
                         "en": {
                             "title": "Frontend Developer",
-                            "description": "That has been done :",
                             "list": {
                                 "title": null,
                                 "items": [
-                                    "Develop seller order, product integration, omni package to increase productivity of sales in Seller System",
-                                    "Omnichannel activation",
-                                    "Implement Nuxt JS to our Web Apps",
-                                    "Co-Operate with Back End Developer to develop new feature and reporting the result to project manager"
+                                    "Developed seller order management, product integration, and omnichannel package features to improve sales operations.",
+                                    "Implemented omnichannel activation features to support channel integration.",
+                                    "Integrated Nuxt.js into the existing web application to support the frontend development workflow.",
+                                    "Collaborated with backend developers to deliver new features and reported development progress to the project manager."
                                 ]
                             },
                             "province": "Bandung",
@@ -73,25 +71,81 @@
                     "locales": {
                         "en": {
                             "title": "Frontend Developer",
-                            "description": "That has been done :",
                             "list": {
                                 "title": null,
                                 "items": [
-                                    "Develop course admin, course review, course discusion to increase quality of product video and course seiling in OCademy",
-                                    "Develop whitelist ads form request and dashboard for monitoring data whitelist ads",
-                                    "Create Open-Api endpoint to track submission by receipt number",
-                                    "Create Open-Api endpoint to edit submission",
-                                    "Create Webhook for login to facebook",
-                                    "Create n8n mechanism for count meta analytics whatsapp",
-                                    "Co-Operate with Backend Developer to develop new features and reporting the result to project manager",
-                                    "Co-Operate with Cekat Al to develop Ochat App, the apps for Create and maintain order via Chat bot AI",
-                                    "Co-Operate with Satuinbox team to develop Satuinbox internal apps for maintain logistic ticketing"
+                                    "Developed course administration, course review, and discussion features for OCademy to support course management and improve the learning experience.",
+                                    "Built a whitelist ads request form and monitoring dashboard to streamline submissions and track request data.",
+                                    "Developed API endpoints to track and update submissions using receipt numbers.",
+                                    "Implemented a webhook for Facebook login integration.",
+                                    "Built an n8n workflow to collect and process WhatsApp Meta analytics data.",
+                                    "Collaborated with backend developers to deliver new features and communicated development progress to the project manager.",
+                                    "Contributed to Cekat AI's OChat application, a chatbot-powered app for creating and managing orders, using Vue.js and Laravel.",
+                                    "Collaborated with the Satuinbox team to develop internal applications for managing logistics-related support tickets."
                                 ]
                             },
                             "province": "Bandung",
                             "country": "Indonesia",
                             "institution": "PT Ordivo Teknologi Indonesia",
                             "tags": ["vue2", "vue 3", "laravel", "frontend", "nextjs"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2025, "month": 4},
+                    "dateEnd": {"year": 2026, "month": 1},
+                    "img": "images/pictures/ordonesia.jpg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Fullstack Developer",
+                            "list": {
+                                "title": null,
+                                "items": [
+                                    "Developed and maintained Satuinbox, an omnichannel customer service platform built with Next.js and Socket.IO to support customer interactions across channels such as WhatsApp and Instagram.",
+                                    "Implemented real-time frontend features for managing customer service tickets and handling omnichannel conversations.",
+                                    "Developed and maintained supporting REST API endpoints using NestJS for features such as application settings.",
+                                    "Worked with controllers, services, DTOs, request validation, and data queries when implementing backend features.",
+                                    "Integrated frontend components with backend APIs to deliver end-to-end application functionality.",
+                                    "Collaborated with the team to maintain existing features and deliver new product requirements."
+                                ]
+                            },
+                            "province": "Bandung",
+                            "country": "Indonesia",
+                            "institution": "PT Ordo Digital Global",
+                            "tags": ["nextjs", "nestjs", "omnichannel", "chat"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "dateStart": {"year": 2026, "month": 4},
+                    "dateEnd": {"year": 2026, "month": 10},
+                    "img": "images/pictures/lionparcel.jpg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer",
+                            "list": {
+                                "title": null,
+                                "items": [
+                                    "Overhauled and maintained the Genesis Apps booking flow using Vue.js, TypeScript, and Tailwind CSS.",
+                                    "Developed reusable, type-safe UI components to improve consistency across booking features and reduce code duplication.",
+                                    "Implemented complex booking business logic and managed state across multi-step forms.",
+                                    "Integrated frontend features with backend APIs to support booking workflows.",
+                                    "Refactored legacy booking modules into maintainable, type-safe Vue.js and TypeScript components.",
+                                    "Investigated and fixed critical frontend bugs to improve application stability and cross-browser reliability.",
+                                    "Extended shared UI components with configurable props to support feature-specific requirements while preserving existing booking functionality.",
+                                    "Performed manual regression testing across affected booking features to minimize unintended changes to existing workflows."
+                                ]
+                            },
+                            "province": "Jakarta",
+                            "country": "Indonesia",
+                            "institution": "PT Lion Parcel (via MSBU)",
+                            "tags": ["vue", "logistic", "dashboard"]
                         }
                     }
                 }

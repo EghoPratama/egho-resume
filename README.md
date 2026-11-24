@@ -1,102 +1,59 @@
-# <img src="docs/assets/logo.png"><img src="docs/assets/spacer.png"> [Vue Resume Template](https://ryanbalieiro.github.io/vue-resume-template/) by Ryan Balieiro
+# Egho Pratama – Resume
 
-A clean and minimal template for building a resume landing page, powered by **Vue 3** (Composition API) and **Bootstrap 5**.
+Personal resume website of **Egho Pratama**, a frontend-focused fullstack developer based in Jakarta, Indonesia.
 
-![alt tag1](docs/assets/promo-1.png)
+🔗 **Live site:** https://eghopratama.github.io/egho-resume/
 
-Key features:
-- Uses Vue3 **Composition API**.
-- **Six unique section layouts** to showcase your work experience, education, skills, projects, and more.
-- Adaptive navigation: **a fixed sidebar** for desktops and **a tabbed layout** for mobile.
-- Built-in **multi-language** support.
-- Emails with **EmailJS** – no backend needed!
-- **Super easy** to customize!
+## Features
 
-## Live Preview
+- One-page resume with sections for About, Education, Skills, Experience, Portfolio, Publications, and Contact.
+- Adaptive navigation: fixed sidebar on desktop, tabbed layout on mobile.
+- English and Indonesian language support.
+- Downloadable resume (PDF) from the About section.
+- Contact form powered by [EmailJS](https://www.emailjs.com/) (no backend needed).
+- SEO basics: meta description, Open Graph / Twitter tags, JSON-LD, `robots.txt`, and `sitemap.xml`.
 
-Here's a list of live versions of the app:
+## Tech stack
 
-| #     | Version                | Description                                        | URL                                                               |
-|-------|------------------------|----------------------------------------------------|-------------------------------------------------------------------|
-| 🟣    | Roy Sheppard (default) | Latest deployment of the app here on GitHub pages. | [Preview](https://ryanbalieiro.github.io/vue-resume-template/)    | 
-| 🟢    | Alana Richard          | An example of how the app can be customized.       | [Preview](https://rbtutorials.github.io/alana-richard-vue-resume) |         
+Vue 3 (Composition API), Vite, Bootstrap 5, SCSS, Chart.js, Swiper, Font Awesome.
 
-## Layout and concept
+## Getting started
 
-### 1. Base layout
-The theme has a clean, minimalist design with a nice mix of purple shades that gives it a fresh, stylish vibe.
+Requires Node.js 18 or newer (Node 22 is used in CI).
 
-![alt tag1](docs/assets/promo-4.png)
-
-### 2. Desktop Screenshots
-On desktop, it has a simple one-page layout with a fixed sidebar, so users can easily scroll through the sections.
-
-![alt tag1](docs/assets/promo-2.png)
-
-### 3. Mobile Screenshots
-On mobile, the layout groups the sections into categories and transforms into a tabbed interface with a bottom navigation.
-
-![alt tag1](docs/assets/promo-3.png)
-
-## Getting Started
-
-1. Clone the repo:
-```
-git clone https://github.com/ryanbalieiro/vue-resume-template
-```
-
-2. Go to the project's root folder and use npm to install all required components:
-```
+```bash
 npm install
+npm run dev      # start the dev server (http://localhost:5173/egho-resume/)
+npm run build    # production build into dist/
+npm run preview  # preview the production build locally
 ```
 
-3. Launch the project in developer mode:
-```
-npm run dev
-```
+Note: the app is served under the `/egho-resume/` base path (see `base` in `vite.config.js`), so open the dev server at that path rather than at the root.
 
-4. (Optional) If you'd like to clear all the portfolio data and begin with a blank page with no sections, run the command below:
-```
-npm run resume:clear
-```
+## Editing the content
 
-5. (Optional) If you want to temporarily deactivate the preload animation during theme adjustments, go to `public/data/settings.json` and set the `preloaderEnabled` flag to false.
+All content lives in JSON files under `public/data/` – no code changes needed for day-to-day updates:
 
-## Configuration Tutorial
+| File | What it controls |
+|------|------------------|
+| `profile.json` | Name, role, photo, contact options and social links |
+| `settings.json` | Preloader and supported languages |
+| `sections.json`, `categories.json` | Section titles, order, and navigation groups |
+| `strings.json` | Shared UI labels (English and Indonesian) |
+| `sections/*.json` | The content of each section (about, education, skills, experience, portfolio, publications, contact) |
 
-Watch this step-by-step video tutorial to see exactly how to configure your app:
+Dates in the JSON files use **0-based months** (`"month": 0` is January, `"month": 10` is November). For a role that is still ongoing, use `"dateEnd": {"string": "now"}`.
 
-| #   | Title                                    | Watch                                                                    |
-|-----|------------------------------------------|--------------------------------------------------------------------------|
-| 1   | Setting up the project                   | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=0m00s)  |
-| 2   | Title and colors                         | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=1m31s)  |
-| 3   | Settings, strings and profile            | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=4m20s)  |
-| 4   | Categories and sections                  | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=7m37s)  |
-| 5   | ArticleProfile                           | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=10m33s) |
-| 6   | ArticleTimeline                          | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=14m12s) |
-| 7   | ArticleSkills                            | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=18m00s) |
-| 8   | ArticlePortfolio                         | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=22m38s) |
-| 9   | ArticleThreads and ArticleContactOptions | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=25m36s) |
-| 10  | ArticleContactForm                       | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=29m44s) |
-| 11  | Deploying on GitHub Pages                | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=34m05s) |
-| 12  | Extra deployment instructions            | [Watch on YouTube](https://www.youtube.com/watch?v=QvQQK81xljw&t=36m20s) |   
+The downloadable resume is `public/files/Septya_Egho_Pratama-Resume.pdf`. To update it, replace that file. The path is set by `resume_pdf_url` in `public/data/sections/about.json`.
 
-For step-by-step setup and deployment instructions, you can also check out the following docs:
-- [CONFIGURATION.md](./docs/CONFIGURATION.md) – learn how to configure and customize the project.
-- [DEPLOYMENT.md](./docs/DEPLOYMENT.md) – short guide on deploying the project.
+More details on configuring the template are in [docs/CONFIGURATION.md](./docs/CONFIGURATION.md).
 
-## About
+## Deployment
 
-This template was created by and is maintained by **[Ryan Balieiro](https://ryanbalieiro.com/)**.
+Pushing to `main` triggers the GitHub Actions workflow in `.github/workflows/deploy.yml`, which builds the site and publishes `dist/` to the `gh-pages` branch. In the repository settings, GitHub Pages should be set to deploy from the `gh-pages` branch. If you rename the repository or use a custom domain, update `base` in `vite.config.js`. See [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md) for more.
 
-It is based on the [Bootstrap](https://getbootstrap.com/) framework created by Mark Otto and Jacob Thorton; and the [Vue](https://vuejs.org/) framework created by Evan You.
+## Credits and license
 
-Additional frameworks and plugins used include:
-- **Font Awesome**: A library of free vector icons.
-- **EmailJS**: A free service that allows you to send emails using JavaScript.
+This site is built on the [Vue Resume Template](https://github.com/ryanbalieiro/vue-resume-template) by [Ryan Balieiro](https://ryanbalieiro.com/), which is released under the MIT license. The design credit in the site footer is kept intentionally. See the upstream repository for the original license text.
 
-## Copyright and License
-
-Code released under the [MIT](https://opensource.org/license/mit) license, providing complete freedom for utilization. Feel free to enhance and adapt it to suit your needs.
-
-Oh... and if you like this template, don't forget to **give it a ⭐** :)
+Built with [Vue](https://vuejs.org/), [Bootstrap](https://getbootstrap.com/), and [Font Awesome](https://fontawesome.com/).

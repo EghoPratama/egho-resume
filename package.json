@@ -1,13 +1,12 @@
 {
-  "name": "resume-template",
+  "name": "egho-resume",
   "private": true,
-  "version": "2.1.3",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
     "resume:clear": "node npm/npm-resume-clear.js"
   },
   "dependencies": {
@@ -16,9 +15,6 @@
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.2.3",
     "chart.js": "^4.4.8",
-    "emailjs": "^4.0.3",
-    "gh-pages": "^6.3.0",
-    "swiper": "^10.0.4",
     "vue": "^3.2.47",
     "vue-chartjs": "^5.3.2",
     "vue-router": "^4.2.4"

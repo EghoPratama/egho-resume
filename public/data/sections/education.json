@@ -18,7 +18,7 @@
                     "locales": {
                         "en": {
                             "title": "Bachelor’s Degree in Informatics Engineering",
-                            "description": "Studied software engineering, object-oriented programming, database systems, software architecture, computer networking, and web development.",
+                            "description": "Studied software engineering, object-oriented programming, database systems, software architecture, computer networking, and web development. Graduated with a GPA of 3.60/4.00.",
                             "list": null,
                             "province": "",
                             "country": "Indonesia",
@@ -26,7 +26,7 @@
                         },
                         "id": {
                             "title": "Sarjana Teknik",
-                            "description": "Mempelajari arsitektur perangkat lunak, pemrograman berorientasi objek, basis data, dan pengembangan front-end.",
+                            "description": "Mempelajari arsitektur perangkat lunak, pemrograman berorientasi objek, basis data, dan pengembangan front-end. Lulus dengan IPK 3.60/4.00.",
                             "list": {
                                 "title": "Topik Penelitian:",
                                 "items": [

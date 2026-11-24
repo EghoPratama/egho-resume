@@ -11,6 +11,14 @@
                                 :item="item"/>
         </div>
 
+        <div v-if="resumeUrl"
+             class="resume-download pb-2 pb-lg-3">
+            <XLButton :href="resumeUrl"
+                      :download="resumeFileName"
+                      icon="fa-solid fa-download"
+                      :label="localizeFromStrings('download_resume')"/>
+        </div>
+
         <SocialLinks :items="socialLinks"
                      class="pt-lg-1"
                      size="3"
@@ -24,6 +32,7 @@ import Article from "/src/vue/components/articles/base/Article.vue"
 import ArticleProfileItem from "/src/vue/components/articles/profile/ArticleProfileItem.vue"
 import SocialLinks from "/src/vue/components/widgets/SocialLinks.vue"
 import InlineLinkList from "/src/vue/components/widgets/InlineLinkList.vue"
+import XLButton from "/src/vue/components/widgets/XLButton.vue"
 import {useUtils} from "/src/composables/utils.js"
 
 const utils = useUtils()
@@ -38,6 +47,18 @@ const props = defineProps({
 
 /** @type {Function} */
 const localize = inject("localize")
+
+/** @type {Function} */
+const localizeFromStrings = inject("localizeFromStrings")
+
+const resumeUrl = computed(() => {
+    const path = props.model.getSetting("resume_pdf_url", null)
+    return path ? utils.resolvePath(path) : null
+})
+
+const resumeFileName = computed(() => {
+    return resumeUrl.value ? resumeUrl.value.split("/").pop() : null
+})
 
 /** @type {{value:Profile}} */
 const profile = inject("profile")

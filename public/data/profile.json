@@ -4,11 +4,11 @@
     "locales": {
         "en": {
             "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Frontend Developer"
+            "role": "Frontend-focused Fullstack Developer"
         },
         "id": {
             "credits": "Dirancang oleh <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Frontend Developer"
+            "role": "Frontend-focused Fullstack Developer"
         }
     },
     "contactOptions": [

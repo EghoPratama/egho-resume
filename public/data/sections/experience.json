@@ -74,7 +74,7 @@
                             "list": {
                                 "title": null,
                                 "items": [
-                                    "Developed course administration, course review, and discussion features for OCademy to support course management and improve the learning experience.",
+                                    "Developed course administration, course review, and discussion features for OCademy to support course management and improve the learning experience, contributing to a 20% increase in course sales.",
                                     "Built a whitelist ads request form and monitoring dashboard to streamline submissions and track request data.",
                                     "Developed API endpoints to track and update submissions using receipt numbers.",
                                     "Implemented a webhook for Facebook login integration.",
@@ -106,16 +106,18 @@
                                 "items": [
                                     "Developed and maintained Satuinbox, an omnichannel customer service platform built with Next.js and Socket.IO to support customer interactions across channels such as WhatsApp and Instagram.",
                                     "Implemented real-time frontend features for managing customer service tickets and handling omnichannel conversations.",
-                                    "Developed and maintained supporting REST API endpoints using NestJS for features such as application settings.",
+                                    "Implemented server-side rendering (SSR) and client-side data fetching to optimize page load performance and SEO.",
+                                    "Developed and maintained supporting REST API endpoints using NestJS integrated with MongoDB for features such as application settings.",
                                     "Worked with controllers, services, DTOs, request validation, and data queries when implementing backend features.",
                                     "Integrated frontend components with backend APIs to deliver end-to-end application functionality.",
+                                    "Built data visualization dashboards displaying agent performance metrics and ticket statistics.",
                                     "Collaborated with the team to maintain existing features and deliver new product requirements."
                                 ]
                             },
                             "province": "Bandung",
                             "country": "Indonesia",
-                            "institution": "PT Ordo Digital Global",
-                            "tags": ["nextjs", "nestjs", "omnichannel", "chat"]
+                            "institution": "PT Ordo Teknologi Global",
+                            "tags": ["nextjs", "nestjs", "mongodb", "omnichannel", "chat"]
                         }
                     }
                 },
@@ -128,7 +130,7 @@
                     "fallbackFaIconColor": null,
                     "locales": {
                         "en": {
-                            "title": "Frontend Developer",
+                            "title": "Frontend Developer (Part Time)",
                             "list": {
                                 "title": null,
                                 "items": [

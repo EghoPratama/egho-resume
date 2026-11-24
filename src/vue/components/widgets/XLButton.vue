@@ -1,10 +1,13 @@
 <template>
-    <button class="btn btn-primary btn-xl"
-            :type="props.type || 'button'"
-            :class="props.class">
+    <component :is="props.href ? 'a' : 'button'"
+               class="btn btn-primary btn-xl"
+               :type="props.href ? undefined : (props.type || 'button')"
+               :href="props.href"
+               :download="props.href ? props.download : undefined"
+               :class="props.class">
         <i class="me-2" :class="props.icon"/>
         <span v-html="props.label"/>
-    </button>
+    </component>
 </template>
 
 <script setup>
@@ -13,13 +16,15 @@ const props = defineProps({
     label: String,
     type: String,
     icon: String,
+    href: String,
+    download: [String, Boolean],
 })
 </script>
 
 <style lang="scss" scoped>
 @import "/src/scss/_theming.scss";
 
-button.btn-xl {
+.btn-xl {
     @include generate-dynamic-styles-with-hash((
         xxxl: (padding: 1.125rem 2.3rem, font-size: 1.05rem),
         xxl:  (padding: 1rem 2rem, font-size: 1rem),

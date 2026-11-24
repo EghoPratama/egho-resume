@@ -176,6 +176,84 @@
         },
 
         {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Backend & Fullstack" },
+                "id": { "title": "Backend & Fullstack" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-solid fa-server",
+                    "fallbackFaIconColor": "oklch(57.7% 0.245 27.325)",
+                    "locales": {
+                        "en": {
+                            "title": "NestJS",
+                            "description": "Building REST API endpoints with controllers, services, DTOs, and request validation."
+                        },
+                        "id": {
+                            "title": "NestJS",
+                            "description": "Membangun endpoint REST API dengan controller, service, DTO, dan validasi request."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-database",
+                    "fallbackFaIconColor": "oklch(62.7% 0.194 149.214)",
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "description": "Integrating NestJS modules with MongoDB for data storage and queries."
+                        },
+                        "id": {
+                            "title": "MongoDB",
+                            "description": "Mengintegrasikan modul NestJS dengan MongoDB untuk penyimpanan dan query data."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-bolt",
+                    "fallbackFaIconColor": "oklch(44.6% 0.043 257.281)",
+                    "locales": {
+                        "en": {
+                            "title": "Socket.IO & Real-time",
+                            "description": "Implementing real-time features such as live chat and ticket updates."
+                        },
+                        "id": {
+                            "title": "Socket.IO & Real-time",
+                            "description": "Mengimplementasikan fitur real-time seperti live chat dan pembaruan tiket."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "fallbackFaIcon": "fa-solid fa-link",
+                    "fallbackFaIconColor": "oklch(44.6% 0.043 257.281)",
+                    "locales": {
+                        "en": {
+                            "title": "End-to-End Integration",
+                            "description": "Connecting frontend and backend with authentication, error handling, and loading states across complete application flows."
+                        },
+                        "id": {
+                            "title": "Integrasi End-to-End",
+                            "description": "Menghubungkan frontend dan backend lengkap dengan autentikasi, penanganan error, dan status loading pada alur aplikasi yang utuh."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
             "id": 3,
             "component": "ArticleSkills",
             "locales": {
@@ -206,7 +284,7 @@
                     "fallbackFaIconColor": "oklch(55.4% 0.046 257.417)",
                     "locales": {
                         "en": {
-                            "title": "Typescript",
+                            "title": "TypeScript",
                             "description": "Writing type-safe frontend code to improve maintainability and reduce common development errors."
                         }
                     }

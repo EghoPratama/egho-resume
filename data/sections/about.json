@@ -6,17 +6,18 @@
             "component": "ArticleProfile",
             "settings": {
                 "contact_list_ids": ["address", "email", "phone"],
-                "contact_circles_ids": ["github", "linkedin", "podcast", "medium"]
+                "contact_circles_ids": ["github", "linkedin", "podcast", "medium"],
+                "resume_pdf_url": "files/Septya_Egho_Pratama-Resume.pdf"
             },
             "items": [
                 {
                     "id": 1,
                     "locales": {
                         "en": {
-                            "description": "I'm a Frontend Developer with 5+ years of experience building responsive, user-friendly web applications. I focus on writing clean, maintainable code and creating reusable UI components that deliver consistent experiences across devices."
+                            "description": "I'm a Frontend-focused Fullstack Developer with 7+ years of experience building responsive, user-friendly web applications, with hands-on fullstack experience in Next.js and NestJS. I focus on writing clean, maintainable code and creating reusable UI components that deliver consistent experiences across devices."
                         },
                         "id": {
-                            "description": "Saya adalah seorang Frontend Developer dengan pengalaman lebih dari 5 tahun dalam membangun aplikasi web yang responsif dan ramah pengguna. Saya berfokus pada penulisan kode yang bersih dan mudah dipelihara, serta menciptakan komponen UI yang dapat digunakan kembali untuk menghadirkan pengalaman yang konsisten di berbagai perangkat."
+                            "description": "Saya adalah seorang Frontend-focused Fullstack Developer dengan pengalaman lebih dari 7 tahun dalam membangun aplikasi web yang responsif dan ramah pengguna, serta pengalaman fullstack menggunakan Next.js dan NestJS. Saya berfokus pada penulisan kode yang bersih dan mudah dipelihara, serta menciptakan komponen UI yang dapat digunakan kembali untuk menghadirkan pengalaman yang konsisten di berbagai perangkat."
                         }
                     }
                 },
@@ -29,6 +30,18 @@
                         },
                         "id": {
                             "description": "Dengan fokus yang kuat pada pengembangan frontend, saya senang mengubah kebutuhan yang kompleks menjadi antarmuka yang intuitif, sembari tetap memperhatikan performa, kegunaan, dan kualitas kode. Saya selalu antusias untuk belajar, berkembang, dan membangun solusi yang dapat mengatasi masalah di dunia nyata."
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "locales": {
+                        "en": {
+                            "description": "I'm currently open to new opportunities as a Frontend or Fullstack Developer."
+                        },
+                        "id": {
+                            "description": "Saat ini saya terbuka untuk peluang baru sebagai Frontend maupun Fullstack Developer."
                         }
                     }
                 }

@@ -4,17 +4,17 @@
     "locales": {
         "en": {
             "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Frontend Developer"
+            "role": "Frontend-focused Fullstack Developer"
         },
         "id": {
             "credits": "Dirancang oleh <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Frontend Developer"
+            "role": "Frontend-focused Fullstack Developer"
         }
     },
     "contactOptions": [
         {
             "id": "address",
-            "value": "Meruya, Jakarta Barat, Indonesia 40559",
+            "value": "Meruya, Jakarta Barat, Indonesia",
             "valueShort": "Meruya – Jakarta Barat",
             "faIcon": "fa-regular fa-map",
             "href": null
@@ -49,7 +49,7 @@
             "value": "+62 85795294098",
             "valueShort": "085795294098",
             "faIcon": "fa-brands fa-whatsapp",
-            "href": "tel:085795294098"
+            "href": "tel:+6285795294098"
         },
 
         {

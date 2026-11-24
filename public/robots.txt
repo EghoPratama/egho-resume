@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eghopratama.github.io/egho-resume/sitemap.xml

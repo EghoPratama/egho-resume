@@ -23,7 +23,7 @@
                     "locales": {
                         "en": {
                             "title": "Cerebrum",
-                            "description": "<b>Cerebrum</b> is e-learning app, helping student for preparation entrance exam to university. Student can simulation exam through the apps and track how far students have prepared",
+                            "description": "<b>Cerebrum</b> is an e-learning app that helps students prepare for university entrance exams. Students can take exam simulations in the app and track their preparation progress.<br><br><b>My role:</b> Frontend Developer. Developed the application from start to finish with Vue.js and Quasar, including exam simulation, exam review, and learning progress features, and created reusable frontend templates for the team.",
                             "tags": ["E-Learning", "EdTech", "Exam Preparation", "Web Application"]
                         }
                     },
@@ -40,7 +40,7 @@
                     "locales": {
                         "en": {
                             "title": "JadiASN",
-                            "description": "<b>JadiASN</b> is an e-learning platform designed to help candidates prepare for Indonesian civil servant recruitment exams. It provides exam simulations that allow candidates to practice answering questions, assess their readiness, and track their preparation progress.",
+                            "description": "<b>JadiASN</b> is an e-learning platform designed to help candidates prepare for Indonesian civil servant recruitment exams. It provides exam simulations that allow candidates to practice answering questions, assess their readiness, and track their preparation progress.<br><br><b>My role:</b> Frontend Developer. Developed the application from start to finish with Vue.js and Quasar, including exam simulation, exam review, and learning progress features.",
                             "tags": ["EdTech", "E-Learning", "Exam Preparation", "Web Application"]
                         }
                     },
@@ -57,7 +57,7 @@
                     "locales": {
                         "en": {
                             "title": "JadiPolri",
-                            "description": "<b>JadiPolri</b> is an e-learning platform designed to help aspiring police officers prepare for police recruitment exams. Through online exam simulations, candidates can practice answering questions, evaluate their performance, and monitor their preparation progress.",
+                            "description": "<b>JadiPolri</b> is an e-learning platform designed to help aspiring police officers prepare for police recruitment exams. Through online exam simulations, candidates can practice answering questions, evaluate their performance, and monitor their preparation progress.<br><br><b>My role:</b> Frontend Developer. Developed the application from start to finish with Vue.js and Quasar, including exam simulation, exam review, and learning progress features.",
                             "tags": ["EdTech", "E-Learning", "Exam Preparation", "Public Service Recruitment"]
                         }
                     },
@@ -74,7 +74,7 @@
                     "locales": {
                         "en": {
                             "title": "JadiPrajurit",
-                            "description": "<b>JadiPrajurit</b> is an e-learning platform designed to help aspiring military personnel prepare for military recruitment exams. The platform offers exam simulations that help candidates practice, assess their readiness, and track their preparation progress.",
+                            "description": "<b>JadiPrajurit</b> is an e-learning platform designed to help aspiring military personnel prepare for military recruitment exams. The platform offers exam simulations that help candidates practice, assess their readiness, and track their preparation progress.<br><br><b>My role:</b> Frontend Developer. Developed the application from start to finish with Vue.js and Quasar, including exam simulation, exam review, and learning progress features.",
                             "tags": ["EdTech", "E-Learning", "Exam Preparation", "Military Recruitment"]
                         }
                     },
@@ -91,7 +91,7 @@
                     "locales": {
                         "en": {
                             "title": "IndieOmniPos",
-                            "description": "<b>IndieOmniPos</b> is an omnichannel point-of-sale platform designed to help businesses manage sales and inventory across multiple sales channels. By bringing sales operations and inventory management together, the platform helps streamline workflows and improve business efficiency.",
+                            "description": "<b>IndieOmniPos</b> is an omnichannel point-of-sale platform designed to help businesses manage sales and inventory across multiple sales channels. By bringing sales operations and inventory management together, the platform helps streamline workflows and improve business efficiency.<br><br><b>My role:</b> Frontend Developer. Built seller order and product integration features, and used Nuxt.js with server-side rendering to improve performance and load times.",
                             "tags": ["Point of Sale", "Omnichannel", "Inventory Management", "E-Commerce"]
                         }
                     },
@@ -108,7 +108,7 @@
                     "locales": {
                         "en": {
                             "title": "OCademy",
-                            "description": "<b>OCademy</b> is an integrated platform that combines online learning and digital marketing tools to support online businesses. It provides educational content and advertising-related features to help business owners develop their marketing skills and manage activities aimed at growing their sales.",
+                            "description": "<b>OCademy</b> is an integrated platform that combines online learning and digital marketing tools to support online businesses. It provides educational content and advertising-related features to help business owners develop their marketing skills and manage activities aimed at growing their sales.<br><br><b>My role:</b> Frontend Developer. Built course administration, course review, and discussion features and improved the video learning experience, contributing to a 20% increase in course sales. Also integrated the affiliate plugin on the OCademy WordPress site.",
                             "tags": ["EdTech", "Online Learning", "Digital Marketing", "Business Tools"]
                         }
                     },
@@ -125,7 +125,7 @@
                     "locales": {
                         "en": {
                             "title": "OChat",
-                            "description": "OChat is an AI-powered chatbot application developed in collaboration with Cekat AI. It enables businesses to create and manage orders through conversational interactions, helping streamline order processing and simplify day-to-day operations.",
+                            "description": "<b>OChat</b> is an AI-powered chatbot application developed in collaboration with Cekat AI. It enables businesses to create and manage orders through conversational interactions, helping streamline order processing and simplify day-to-day operations.<br><br><b>My role:</b> Frontend Developer. Designed and built the interface with Vue.js, integrated with a Laravel (PHP) backend.",
                             "tags": ["AI", "Chatbot", "Order Management", "Business Automation"]
                         }
                     },
@@ -142,7 +142,7 @@
                     "locales": {
                         "en": {
                             "title": "Satuinbox",
-                            "description": "Satuinbox is an omnichannel customer service platform that brings customer conversations from multiple channels, including WhatsApp and Instagram, into a centralized workspace. It helps customer service teams manage conversations, organize support tickets, and streamline customer interactions.",
+                            "description": "<b>Satuinbox</b> is an omnichannel customer service platform that brings customer conversations from multiple channels, including WhatsApp and Instagram, into a centralized workspace. It helps customer service teams manage conversations, organize support tickets, and streamline customer interactions.<br><br><b>My role:</b> Fullstack Developer. Built the web application with Next.js, using server-side rendering and client-side data fetching to optimize performance and SEO, and developed supporting REST API endpoints with NestJS and MongoDB. Implemented live chat and ticketing features with real-time updates through Socket.IO, reusable UI components, validated ticket submission forms, and dashboards visualizing agent performance and ticket statistics.",
                             "tags": ["Omnichannel", "Customer Service", "Ticketing System", "Web Application"]
                         }
                     },
@@ -159,7 +159,7 @@
                     "locales": {
                         "en": {
                             "title": "Genesis Apps - Lion Parcel",
-                            "description": "Genesis Apps is a logistics application used in Lion Parcel's shipment booking workflow. It supports the process of creating shipment bookings through a multi-step flow, with forms and business rules that help users complete shipping transactions.",
+                            "description": "<b>Genesis Apps</b> is a logistics application used in Lion Parcel's shipment booking workflow. It supports the process of creating shipment bookings through a multi-step flow, with forms and business rules that help users complete shipping transactions.<br><br><b>My role:</b> Frontend Developer (part time). Contributed to the overhaul of the booking flow with Vue.js, TypeScript, and Tailwind CSS, building reusable type-safe components and integrating multi-step form state with backend APIs.",
                             "tags": ["Logistics", "Shipment Booking", "Frontend Engineering", "Web Application"]
                         }
                     },

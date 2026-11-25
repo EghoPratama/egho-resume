@@ -74,14 +74,12 @@
                             "list": {
                                 "title": null,
                                 "items": [
-                                    "Developed course administration, course review, and discussion features for OCademy to support course management and improve the learning experience, contributing to a 20% increase in course sales.",
+                                    "Developed course administration, course review, and discussion features for OCademy, improving the learning experience and contributing to a 20% increase in course sales; also integrated the affiliate plugin on the OCademy WordPress site.",
                                     "Built a whitelist ads request form and monitoring dashboard to streamline submissions and track request data.",
-                                    "Developed API endpoints to track and update submissions using receipt numbers.",
-                                    "Implemented a webhook for Facebook login integration.",
-                                    "Built an n8n workflow to collect and process WhatsApp Meta analytics data.",
-                                    "Collaborated with backend developers to deliver new features and communicated development progress to the project manager.",
+                                    "Developed API endpoints to track and update submissions using receipt numbers, implemented a webhook for Facebook login integration, and built an n8n workflow to process WhatsApp Meta analytics data.",
                                     "Contributed to Cekat AI's OChat application, a chatbot-powered app for creating and managing orders, using Vue.js and Laravel.",
-                                    "Collaborated with the Satuinbox team to develop internal applications for managing logistics-related support tickets."
+                                    "Collaborated with the Satuinbox team to develop internal Next.js applications for managing logistics-related support tickets.",
+                                    "Collaborated with backend developers to deliver new features and reported development progress to the project manager."
                                 ]
                             },
                             "province": "Bandung",
@@ -105,13 +103,11 @@
                                 "title": null,
                                 "items": [
                                     "Developed and maintained Satuinbox, an omnichannel customer service platform built with Next.js and Socket.IO to support customer interactions across channels such as WhatsApp and Instagram.",
-                                    "Implemented real-time frontend features for managing customer service tickets and handling omnichannel conversations.",
                                     "Implemented server-side rendering (SSR) and client-side data fetching to optimize page load performance and SEO.",
-                                    "Developed and maintained supporting REST API endpoints using NestJS integrated with MongoDB for features such as application settings.",
-                                    "Worked with controllers, services, DTOs, request validation, and data queries when implementing backend features.",
-                                    "Integrated frontend components with backend APIs to deliver end-to-end application functionality.",
-                                    "Built data visualization dashboards displaying agent performance metrics and ticket statistics.",
-                                    "Collaborated with the team to maintain existing features and deliver new product requirements."
+                                    "Developed REST API endpoints with NestJS and MongoDB, working with controllers, services, DTOs, request validation, and data queries.",
+                                    "Integrated frontend applications with the NestJS APIs, handling authentication, error states, and loading states.",
+                                    "Managed state for live chat and ticketing features, including real-time UI updates and data synchronization with Socket.IO.",
+                                    "Built reusable UI components, validated ticket submission forms, and dashboards visualizing agent performance metrics and ticket statistics."
                                 ]
                             },
                             "province": "Bandung",
@@ -134,14 +130,10 @@
                             "list": {
                                 "title": null,
                                 "items": [
-                                    "Overhauled and maintained the Genesis Apps booking flow using Vue.js, TypeScript, and Tailwind CSS.",
-                                    "Developed reusable, type-safe UI components to improve consistency across booking features and reduce code duplication.",
-                                    "Implemented complex booking business logic and managed state across multi-step forms.",
-                                    "Integrated frontend features with backend APIs to support booking workflows.",
-                                    "Refactored legacy booking modules into maintainable, type-safe Vue.js and TypeScript components.",
-                                    "Investigated and fixed critical frontend bugs to improve application stability and cross-browser reliability.",
-                                    "Extended shared UI components with configurable props to support feature-specific requirements while preserving existing booking functionality.",
-                                    "Performed manual regression testing across affected booking features to minimize unintended changes to existing workflows."
+                                    "Contributed to the overhaul and maintenance of the Genesis Apps booking flow using Vue.js, TypeScript, and Tailwind CSS.",
+                                    "Developed reusable, type-safe UI components with configurable props to keep the booking flow consistent and reduce code duplication.",
+                                    "Implemented complex booking business logic and multi-step form state, integrating the frontend with backend APIs.",
+                                    "Refactored legacy booking modules into maintainable, type-safe Vue.js and TypeScript components, fixed critical frontend bugs, and ran manual regression tests to improve stability and cross-browser reliability."
                                 ]
                             },
                             "province": "Jakarta",
